@@ -291,4 +291,5 @@ if __name__ == "__main__":
         nexus_os = NexusOS()
         nexus_os.start_system()
     except Exception as e:
+
         print(f"Error critico en el sistema: {e}")
